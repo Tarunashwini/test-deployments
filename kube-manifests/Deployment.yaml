@@ -18,7 +18,7 @@ spec:
     spec: 
       containers: 
         - name: python-app
-          image: tarunashwini/survey_form:v1.3
+          image: tarunacr.azurecr.io/test_docker_image
           volumeMounts:
             - mountPath: /mnt/data
               name: survey-form-data
